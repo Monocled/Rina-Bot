@@ -18,7 +18,6 @@ client.on('message', message => {
 	} else if (command === 'beep') {
 		message.channel.send('Boop.');
 	}
-	// other commands...
 });
 
 client.login("token");
