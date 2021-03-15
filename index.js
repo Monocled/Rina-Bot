@@ -24,7 +24,7 @@ client.on('message', message => {
 	else if (message.content === `${prefix}user-info`) {
 	  message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
 	}
-	
+	  
 });
 
 client.login("token");
