@@ -1,4 +1,12 @@
-# Rina-Bot
-discord server community bot with basic functions only.
+##**Rina-Bot**
 
-Apparently I have postponed this project and focused on advertising task. Feel free to leave any comment@suggestion. Peace Out ✌️ 
+*A discord server community bot with basic functions created using mobile environment.* 
+
+Currently I wanted to add these basic functions first-
+
+#1.
+Clear Command
+#2. 
+Kick/Ban Command
+#3. 
+Mute Command
