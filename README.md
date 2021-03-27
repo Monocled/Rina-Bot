@@ -1,4 +1,4 @@
-##**Rina-Bot**##
+#Rina-Bot
 
 *A discord server community bot with basic functions created using mobile environment.* 
 
