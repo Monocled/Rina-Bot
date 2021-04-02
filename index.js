@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const {prefix, token} = require('./config.json');
 
 client.once('ready', () => {
-	console.log('Ready!');
+	console.log('${client.user.tag} Ready!');
 });
 
 client.on('message', message => {
