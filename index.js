@@ -4,7 +4,7 @@ const {prefix, token} = require('./config.json');
 
 client.once('ready', () => {
 	console.log('${client.user.tag} Ready!');
-});
+    });
 
 client.on('message', message => {
 	if (message.content.startsWith(prefix) || message.author.bot) return;
@@ -23,17 +23,8 @@ client.on('message', message => {
 	}
 	else if (message.content === `${prefix}user-info`) {
 	  message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
-	}
-	  
-});
-//Clear Message Command
-command(client, ['cc', 'clearchannel'], (message) => {
-        if (message.member.hasPermission('ADMINISTRATOR')) {
-          message.channel.messages.fetch().then((results) => {
-            message.channel.bulkDelete(results)
-      })
-    }
- })
+	}	  
+    });
 
 
 client.login("token");
